@@ -2,6 +2,6 @@
 
 ## Instruction
 ```
-docker build -t mt_dem -f Dockerfile .
-docker run -it -p 8080:8080 --rm flask_demo
+docker build -t mt_demo -f Dockerfile .
+docker run -it -p 8080:8080 --rm mt_demo
 ```
